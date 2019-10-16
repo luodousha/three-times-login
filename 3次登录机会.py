@@ -146,8 +146,9 @@ class User():
     def yzm(self):
         '验证码...'
         pass
-
-
+    def change_passwd(self):
+        '修改密码'
+        pass
 if __name__ == '__main__':
     u = User()
     while True:
